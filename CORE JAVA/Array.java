@@ -31,8 +31,14 @@ public class Array {
     students[1] =  s2;
     students[2] =  s3;
 
-    for(int i=0; i<students.length; i++){
-        System.out.println(students[i]. name + " : " + students[i].marks);
+    // for(int i=0; i<students.length; i++){
+    //     System.out.println(students[i]. name + " : " + students[i].marks);
+    // }
+
+    // OR
+
+    for(Student stud : students){
+        System.out.println(stud.name + " : " + stud.marks);
     }
 
     int nums[] = new int[4];

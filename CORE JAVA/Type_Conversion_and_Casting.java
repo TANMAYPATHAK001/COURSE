@@ -3,7 +3,7 @@ public class Type_Conversion_and_Casting {
 public static void main(String[] args) {
     
     byte b = 127;
-    int a  = 12;
+    int a  = 128;
 
     // if the value is bigger than the range then modulo will arrive.
 

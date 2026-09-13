@@ -32,8 +32,9 @@ public static void main(String[] args) {
             }
         }
 
+        //Encahcned for loop
         for (int x[] : nums2) {
-            for (int y[]  : x) {
+            for (int y  : x) {
                 System.out.print(y);
             }
             System.out.println();
